@@ -1,0 +1,19 @@
+
+/**Declare the Gradle repository in your root build.gradle**/
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+
+/**Declare the Gradle dependency in your app module's build.gradle**/
+dependencies {
+    compile 'com.github.delight-im:Android-AdvancedWebView:v3.0.0'
+}
+
+/**Add Internet Permission in Manifest.xml**/
+<uses-permission android:name="android.permission.INTERNET" />
+
+/**ProGuard (if enabled)**/
+-keep class * extends android.webkit.WebChromeClient { *; }
+-dontwarn im.delight.android.webview.**
