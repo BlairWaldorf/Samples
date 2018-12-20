@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--Radio Group for Radio Buttons-->
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:orientation="vertical">
+
+        <!--RadioButtons to Display Apple, Mango, Pineapple-->
+        <RadioButton
+            android:id="@+id/apple"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/mango"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mango"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/pineapple"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pineapple"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <!--ImageView to Display Images on Radio Button Selection-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <!--CheckBox which will display Apple, Mango, Pineapple-->
+    <CheckBox
+        android:id="@+id/apple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/mango"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mango"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/pineapple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pineapple"
+        android:textSize="18sp" />
+
+    <!--Button to Display Selected CheckBox Title-->
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Display"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <!--TextView Which will display a Selected CheckBox-->
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
