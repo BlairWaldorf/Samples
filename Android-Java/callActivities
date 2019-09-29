@@ -1,0 +1,4 @@
+private void callActivity(Class c){
+    Intent it = new Intent(this, c);
+    startActivity(it);
+}
